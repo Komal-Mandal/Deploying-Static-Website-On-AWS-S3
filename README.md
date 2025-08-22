@@ -35,7 +35,7 @@ AWS S3 = Online storage from Amazon, like a giant cloud hard drive, where you pa
 
 ## 1️⃣ Create an S3 Bucket
 
-- og in to your AWS Management Console.
+- Go in to your AWS Management Console.
 
 - Go to S3 service.
 
