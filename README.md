@@ -158,9 +158,9 @@ This helps in backup, disaster recovery, or compliance.
 
 - You can choose to replicate:
 
-      1. All objects
+     -  All objects
 
-      2. Objects with specific tags or prefixes
+     -  Objects with specific tags or prefixes
 
 ## 🎯 Example Use Cases
 
