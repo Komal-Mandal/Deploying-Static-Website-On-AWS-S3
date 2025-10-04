@@ -49,6 +49,9 @@ AWS S3 = Online storage from Amazon, like a giant cloud hard drive, where you pa
 
 - Click Create bucket.
 
+  <img width="1261" height="494" alt="Screenshot 2025-10-04 104051" src="https://github.com/user-attachments/assets/389efad6-fcf2-4396-b3f0-4fc1f54f1d08" />
+
+
 ## 2️⃣ Upload Website Files
 
 - Open your bucket.
@@ -58,6 +61,9 @@ AWS S3 = Online storage from Amazon, like a giant cloud hard drive, where you pa
 - Upload your index.html and other files.
 
 - Click Upload.
+
+<img width="1819" height="498" alt="Screenshot 2025-10-04 104601" src="https://github.com/user-attachments/assets/d302a6bf-5a73-44ba-aa75-1901c7ff92e5" />
+
 
 ## 3️⃣ Enable Static Website Hosting
 
@@ -75,26 +81,19 @@ Enter:
 
 - Save changes.
 
+<img width="1822" height="372" alt="Screenshot 2025-10-04 104758" src="https://github.com/user-attachments/assets/05241549-94eb-4b80-8609-af3256e31658" />
+
+<img width="1406" height="621" alt="Screenshot 2025-10-04 105333" src="https://github.com/user-attachments/assets/568a7a54-8aa4-48d5-a6bd-129eb8b0be41" />
+
+
 ## 4️⃣ Make Files Public
 
 Go to your bucket → Permissions.
 
 Add a Bucket policy:
 
-```
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicReadGetObject",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::my-first-static-website/*"
-    }
-  ]
-}
-```
+<img width="555" height="544" alt="Screenshot 2025-10-04 110129" src="https://github.com/user-attachments/assets/49660c85-9d4c-41a8-998d-1a0f51227867" />
+
 
 ## 5️⃣ Access Your Website 🌍
 
@@ -103,6 +102,9 @@ Add a Bucket policy:
 - Copy the Endpoint URL.
 
 - Paste it into your browser →  Your website is live!
+
+<img width="1793" height="922" alt="Screenshot 2025-10-04 110451" src="https://github.com/user-attachments/assets/6c58bd21-383b-428f-8574-074d36110683" />
+
 
 ## 🔄 Enable Versioning in S3
 
@@ -119,6 +121,8 @@ Example: If you overwrite index.html, the old version is still stored and can be
 - Click Edit → Enable Versioning → Save changes.
 
 - Now, whenever you upload a new file with the same name, S3 will keep the old version also.
+
+<img width="1835" height="560" alt="Screenshot 2025-10-04 111425" src="https://github.com/user-attachments/assets/c6a20af7-7f72-4bb5-a989-070c94a01a1e" />
 
 # S3 Replication
 
